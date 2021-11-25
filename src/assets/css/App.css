@@ -1,0 +1,102 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #120E24;
+    text-align      : center;
+    margin          : 0;
+    padding         : 0;
+    font-family     : Raleway;
+    font-style      : normal;
+
+    color: #FFFFFF;
+}
+
+.wPadrao {
+    width        : 100%;
+    max-width    : 1482px !important;
+    margin       : 0 auto;
+    margin-bottom: 3em !important;
+    padding      : 0 3em 0 3em;
+}
+
+.title {
+    font-weight: 900;
+    font-size  : 50px;
+    line-height: 59px;
+}
+
+.bg-dark {
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.row {
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    text-align     : justify;
+    justify-content: space-between;
+}
+
+.col2 {
+    width: 40%;
+}
+
+.col3 {
+    width: 33%;
+}
+
+.sub-titulo {
+    font-weight: 500;
+    font-size  : 24px;
+    line-height: 40px;
+    margin     : 0;
+    text-align : center;
+}
+
+.como-utilizar {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.como-utilizar p {
+    margin-bottom: 3em;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.alerta {
+    padding      : 15px 25px;
+    border       : 1px solid gray;
+    border-radius: 3px;
+    margin       : 10px;
+    font-size    : 18px;
+}
+
+.error {
+    border-color    : #e8273b;
+    color           : #720813;
+    background-color: #ed5565;
+}
+
+.sucesso {
+    border-color    : #87c940;
+    color           : #1e3a01;
+    background-color: #a0d468;
+}
+
+.atencao {
+    border-color    : #f4a911;
+    color           : #4e3400;
+    background-color: #f6bb42;
+}
+
+.info {
+    border-color    : #2f80e7;
+    color           : #001e46;
+    background-color: #5d9cec;
+}
